@@ -11,7 +11,7 @@ const myArr =[1,2,3];
 // },0);
 
 // In  short
-const TotalArr = myArr.reduce((acc ,currVal)=> acc +currVal , 0)
+const TotalArr = myArr.reduce((acc ,currVal)=> acc + currVal , 0)
 
 
 
