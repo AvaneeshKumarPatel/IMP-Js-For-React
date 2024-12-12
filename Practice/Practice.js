@@ -3,9 +3,9 @@
 
 
 
-
+ 
+ 
  // Let's Start with Map() Function 
-
 
 
 
@@ -182,3 +182,9 @@ const Alluser = UUsers.filter((item)=> item.age > 18)
 
 
     // i'm stuck all with rest 
+
+
+
+
+    
+

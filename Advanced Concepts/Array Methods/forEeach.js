@@ -86,18 +86,14 @@ users.forEach((allUsers)=> {
   let FindOddEvenNumbers = [1, 2, 3, 4, 5, 6];
   // Use forEach to count odd and even numbers
 
-
+  
+  
+  
+  
+  const Result =  {  odd: [],even:[]  };
 
 FindOddEvenNumbers.forEach( (OddAndEven) => {
  
-
-    const Result =  {
-        odd: [],
-        even:[]
-     
-      };
-      
-
     if( OddAndEven % 2 === 0 ) {
        Result.even.push(OddAndEven)
 
@@ -122,10 +118,9 @@ let products = [
 
 
 products.forEach((itemss)=> {
-console.log()
- // stuck here 
+  products.discountedPrice =  itemss.price *0.9   // adding 10% discount here 
 })
-
+console.log(products);
 
 // 4 Filter out specific elements using forEach and push them to a new array.
 
@@ -133,12 +128,15 @@ console.log()
 let nnumbers = [5, 10, 15, 20, 25];
 // Use forEach to create a new array with numbers greater than 15
 
-nnumbers.forEach((numms)=> {
-
-    const NewArru =[];
-
-    numms <= 15 
-
-
+const NewArry =[];
+nnumbers.forEach((numms) => {
+ 
+    if( numms > 15) {
+      
+        NewArry.push(numms);
+    }
 
 })
+ 
+
+console.log(NewArry)
