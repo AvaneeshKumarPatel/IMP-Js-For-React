@@ -4,20 +4,41 @@
 
 
  1. What is the Event Loop?
+ =>  JavaScript runs one task at a time but can handle tasks like timers or data fetching in the background. The event loop ensures       
+ completed asks run when JavaScript is free, keeping everything smooth and non-blocking.
+ 
 
  2. What is the Difference  between UseRef and UseState?
- 
+ => Use useRef for stable values and useState for dynamic, UI-dependent ones.
+
+
  3. What is Virtual DOM?
+ => The Virtual DOM is a lightweight copy of the real DOM. It helps React update only the parts of the UI that change, making updates faster and improving performance.
+
+
 
  4.  What is the Higher Order Function,with example? 
+=> A Higher-Order Function (HOF) in React is a function that takes another function or component as an argument and returns a new         function or component. It’s commonly used to add reusable logic or functionality to components.
+ 
 
- 5.  What is the Redux? 
+
+ 5.  What is the Redux?
+ => Redux is a state management library for JavaScript applications, often used with React. It helps manage the application’s state in a predictable way by centralizing it into a single store.
+
+
+
  
  6.  How to Create Custom Hook and give a example?
+ => A custom hook in React is a function that allows you to reuse stateful logic between components. It's just a JavaScript function that can use React's built-in hooks (like useState, useEffect, etc.) and return values or functions that you can use in other components.
+
  
  7.  What is the Difference between Async await and Promise?
+
+
  
  8.  What is the Difference between Put and Patch in API?
+
+ 
 
  9.  What is Context API?
 
