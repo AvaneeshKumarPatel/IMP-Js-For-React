@@ -1,11 +1,11 @@
 # Note1
   
-  Here is All Important Questions and Answers for React.js
+  Here are All the Important Questions and Answers for React.js
 
 
  1. What is the Event Loop?
- =>  JavaScript runs one task at a time but can handle tasks like timers or data fetching in the background. The event loop ensures       
- completed asks run when JavaScript is free, keeping everything smooth and non-blocking.
+ =>  JavaScript runs one task at a time, but can handle functions like timers or data fetching in the background. The event loop ensures       
+     Completed tasks are run when JavaScript is free, keeping everything smooth and non-blocking.
  
 
  2. What is the Difference  between UseRef and UseState?
@@ -17,33 +17,41 @@
 
 
 
- 4.  What is the Higher Order Function,with example? 
-=> A Higher-Order Function (HOF) in React is a function that takes another function or component as an argument and returns a new         function or component. It’s commonly used to add reusable logic or functionality to components.
+ 4.  What is the Higher Order Function, with an example? 
+=> A Higher-Order Function (HOF) in React is a function that takes another function or component as an argument and returns a new function or component.
+   It’s commonly used to add reusable logic or functionality to components.
  
 
 
- 5.  What is the Redux?
- => Redux is a state management library for JavaScript applications, often used with React. It helps manage the application’s state in a predictable way by centralizing it into a single store.
+ 5.  What is Redux?
+ => Redux is a state management library for JavaScript applications, often used with React.
+    It helps predictably manage the application’s state by centralizing it into a single store.
 
 
 
  
- 6.  How to Create Custom Hook and give a example?
- => A custom hook in React is a function that allows you to reuse stateful logic between components. It's just a JavaScript function that can use React's built-in hooks (like useState, useEffect, etc.) and return values or functions that you can use in other components.
+ 6.  How do you create a Custom Hook? Can you give an example?
+ => A custom hook in React is a function that allows you to reuse stateful logic between components.
+   It's just a JavaScript function that can use React's built-in hooks (like useState, useEffect, etc.) and return values or functions that you can use in other components.
 
  
  7.  What is the Difference between Async await and Promise?
+  => When a Promise is created, execution continues synchronously. Once resolved or rejected, its callback is queued in the microtask queue, which runs after the current task but before the next one.
+     With Async/Await, await pauses the async function until the Promise resolves or rejects, without blocking the call stack. Execution resumes once resolved, 
+     returning the result or throwing an error if rejected.
 
 
  
  8.  What is the Difference between Put and Patch in API?
-
+  => PUT**: Replaces the entire resource with new data, potentially removing unspecified fields.  
+   PATCH**: Partially updates a resource by modifying only the specified fields.
  
 
  9.  What is Context API?
+ => Context API  is a React feature that enables state sharing between components without prop drilling.
+   It provides a way to manage global state by creating a context, wrapping components in a provider,
+   and accessing the state using consumers or the `useContext` hook.
 
- 
- 
 
 
 
